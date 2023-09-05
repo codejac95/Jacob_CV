@@ -1,0 +1,38 @@
+
+body{ 
+    
+    background-image: url(bakgrundsbild.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+    
+
+    .container { 
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        min-height: 850px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+           
+    }  
+    .container .left_Side
+    {
+        position: relative;
+        padding: 40px;
+        background-color: rgba(181, 229, 244, 0.448);     
+         
+    }
+    
+    .container .right_Side
+    {
+        position: relative;
+        padding: 40px;
+        background-color: rgba(248, 248, 248, 0.702);      
+    }
+    
+    
+}
+
